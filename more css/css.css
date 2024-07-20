@@ -1,0 +1,46 @@
+/*.floatation h1{
+	float: right;
+}
+
+@media only screen and (max-width: 600px){
+	.floatation h1{
+	float: none;
+}
+
+	.floatation h2{
+		float: right;
+}*/
+
+.navbar{
+	height: 50px;
+	width: 100%;
+	background-color: aquamarine;
+	margin-bottom: 40px;
+}
+
+.about{
+	height: 150px;
+	width: 100%;
+	background-color: aquamarine;
+	margin-bottom: 40px;
+}
+
+.image-container{
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.image-container div{
+	height: 250px;
+	width: 30%;
+	background-color: aquamarine;
+}
+
+.footer{
+	height: 80px;
+	width: 100%;
+	background-color: aquamarine;
+	margin-top: 40px;
+}
